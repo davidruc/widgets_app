@@ -21,20 +21,25 @@ final router = GoRouter(
       name: CardsScreen.name,
       builder: (context, state) => const CardsScreen(),
     ),
-     GoRoute(
+    GoRoute(
       path: '/progress',
       name: ProgressScreen.name,
       builder: (context, state) => const ProgressScreen(),
     ),
-     GoRoute(
+    GoRoute(
       path: '/snackbars',
       name: SnackbarScreen.name,
       builder: (context, state) => const SnackbarScreen(),
     ),
-     GoRoute(
+    GoRoute(
       path: '/animated',
       name: AnimatedScreen.name,
       builder: (context, state) => const AnimatedScreen(),
-    )
+    ),
+    GoRoute(
+      path: '/uiControllos',
+      name: UiControllsScreen.name,
+      builder: (context, state) => const UiControllsScreen(),
+    ),
   ],
 );

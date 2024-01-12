@@ -49,4 +49,10 @@ const appMenuItems = <MenuItem>[
       url: "/animated",
       icon: Icons.check_box_outline_blank_outlined
     ),
+    MenuItem(
+      title: "UI-controlls", 
+      subTitle: "Una serie de controllers de flutter", 
+      url: "/uiControllos",
+      icon: Icons.car_rental_rounded
+    ),
 ];
