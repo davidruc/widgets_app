@@ -1,11 +1,17 @@
 import 'package:go_router/go_router.dart';
 import 'package:widgets_app/presentation/screens/screens.dart';
+import 'package:widgets_app/presentation/screens/theme_canger/theme_canger_screen.dart';
 
 
 // GoRouter configuration
 final router = GoRouter(
   initialLocation: "/",
   routes: [
+    GoRoute(
+      path: '/theme-changer',
+      name: ThemeChangerScreen.name,
+      builder: (context, state) => const ThemeChangerScreen(),
+    ),
     GoRoute(
       path: '/',
       name: HomeScreen.name,
@@ -45,6 +51,16 @@ final router = GoRouter(
       path: '/tutorial',
       name: AppTutorialScreen.name,
       builder: (context, state) => const AppTutorialScreen(),
+    ),
+     GoRoute(
+      path: '/infinite',
+      name: InfiniteScrollScreen.name,
+      builder: (context, state) => const InfiniteScrollScreen(),
+    ),
+     GoRoute(
+      path: '/counter-river',
+      name: CounterScreen.name,
+      builder: (context, state) => const CounterScreen(),
     ),
   ],
 );
