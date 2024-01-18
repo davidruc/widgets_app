@@ -1,6 +1,7 @@
 
 //! Cuando una aplicación es muy robusta es recomendable tener un archivo que se encarga de exportar toooodos los screens.
-import 'package:widgets_app/presentation/screens/theme_canger/theme_canger_screen.dart';
+
+export 'package:widgets_app/presentation/screens/theme_canger/theme_canger_screen.dart';
 
 export 'package:widgets_app/presentation/screens/counter/counter_screen.dart';
 export 'package:widgets_app/presentation/screens/animated/animated_screen.dart';
